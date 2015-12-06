@@ -1,6 +1,7 @@
 package app.annaj.android.example.com.ubooks;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -66,10 +67,11 @@ public class RegisterActivity extends Activity {
                             //user signed up successfully
 
                             Toast.makeText(RegisterActivity.this, "Success.Welcome!", Toast.LENGTH_LONG).show();
-                            //take user to the home page
 
-                           //Intent takeUserToBrowseBooks=new Intent(RegisterActivity.this,BrowseBooksActivity.class);
-                          //  startActivity(takeUserToBrowseBooks);
+                            //take user to the Browsebooks  page
+
+                           Intent takeUserToBrowseBooks= new Intent(RegisterActivity.this,BrowseBooksActivity.class);
+                          startActivity(takeUserToBrowseBooks);
                         }
                         else{
                             //there was an error signing up user, advice user
