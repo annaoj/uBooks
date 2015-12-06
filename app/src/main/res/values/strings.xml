@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">UBooks</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_browse_book">BrowseBookActivity</string>
+    <string name="title_activity_browse_books">BrowseBooksActivity</string>
 </resources>
