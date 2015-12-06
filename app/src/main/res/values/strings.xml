@@ -4,4 +4,5 @@
     <string name="title_activity_register">RegisterActivity</string>
     <string name="title_activity_browse_book">BrowseBookActivity</string>
     <string name="title_activity_browse_books">BrowseBooksActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
 </resources>
